@@ -42,18 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="versions\1.6.2\b2Optic_LensOrder.cs">
-      <DependentUpon>b2Optic_LensOrder.xsd</DependentUpon>
-    </Compile>
     <Compile Include="versions\1.6.3\b2Optic_LensOrder.cs">
       <DependentUpon>b2Optic_LensOrder.xsd</DependentUpon>
+      <SubType>code</SubType>
     </Compile>
     <None Include="versions\1.6.3\b2Optic_LensOrder.xsd">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="versions\1.6.2\b2Optic_LensOrder.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
